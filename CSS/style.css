@@ -29,6 +29,9 @@ body {
 .form-font {
   font-size: 0.875rem;
 }
+.star-color{
+    color: #FFB900;
+}
 header {
   background: linear-gradient(to right, #4d179acc, #59168bcc),
     url("../Images/hero-bg-img.png");
@@ -76,17 +79,21 @@ header .header-title p {
   background-color: #f9fafb;
 }
 .premium-collection .premium-title .title-1,
-.our-services .our-services-title .title-1 {
+.our-services .our-services-title .title-1,
+.contact .contact-title .title-1
+ {
   background-color: #f8f4ff;
   border: 0.125rem solid #ddd6ff !important;
 }
-.premium-collection .premium-title .title-1,
-.our-services .our-services-title .title-1 span {
+.premium-collection .premium-title .title-1 span,
+.our-services .our-services-title .title-1 span,
+.contact .contact-title .title-1 span {
   font-size: 0.75rem;
   font-weight: 700;
 }
 .premium-collection .premium-title .title-2 span,
-.our-services .our-services-title .title-2 span {
+.our-services .our-services-title .title-2 span,
+.contact .contact-title .title-2 span {
   font-size: 3rem;
   font-weight: 900;
   background: linear-gradient(to right, #871efc, #9b29f3, #c376a4, #f89700);
@@ -95,7 +102,8 @@ header .header-title p {
 }
 
 .premium-collection .premium-title .title-2 p,
-.our-services .our-services-title .title-2 p {
+.our-services .our-services-title .title-2 p,
+.contact .contact-title .title-2 p {
   font-size: 1.25rem;
   color: #4a5565;
 }
@@ -232,4 +240,83 @@ header .header-title p {
 .nav-btn:hover{
     background-color: #7008E7;
      color: #ffffff;
+}
+
+
+
+.testemonials{
+    background: linear-gradient(90deg , #4E179A , #531792 ,#58168C);
+    height: 100vh;
+}
+
+.testemonials .testemonials-title .title-1{
+    background-color: #F8F4FF;
+    font-size: .75rem;
+    font-weight: 600;
+}
+.testemonials .testemonials-title .title-2 span {
+  font-size: 3rem;
+  color: #fff;
+  font-weight: 900;
+}
+.testemonials .testemonials-title .title-2 p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #DDD6FF;
+}
+.testemonials-content .card{
+    width: 60%;
+    height: 20rem;
+}
+.testemonials-content .carousel-indicators [data-bs-target] {
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: #fff;   
+}
+.testemonials-content .card-2 p{
+    font-size: 1.25rem;
+    line-height: 2.0625rem;
+}
+.testemonials-content .card-3 .image-card{
+    width: 8%;
+}
+
+.faq{
+    background-color: #F9FAFB;
+}
+.faq .faq-title .title-1{
+    background-color: #F8F4FF;
+    font-size: .75rem;
+    font-weight: 600;
+    border: .125rem #DDD6FF solid
+}
+.faq .faq-title .title-2 span {
+  font-size: 3rem;
+  color: #7E0DEE;
+  font-weight: 900;
+}
+.faq .faq-title .title-2 p{
+    font-size: 1.25rem;
+    line-height: 1.75rem;
+    color: #4A5565;
+}
+.faq .faq-content{
+    width: 58%;
+}
+.accordion-item{
+   box-shadow: 0px 20px 30px -15px rgba(0, 0, 0, 0.15);
+
+    border: 2px solid #fff!important;
+}
+.accordion-button{
+    font-size: 1.25rem;
+    font-weight: 600;
+}
+.accordion-body{
+    font-size: 1rem;
+    line-height: 1.625rem;
+    color:#4A5565;
+    word-spacing: .125rem;
+    margin-top: 1.25rem;
 }
