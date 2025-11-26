@@ -320,3 +320,84 @@ header .header-title p {
     word-spacing: .125rem;
     margin-top: 1.25rem;
 }
+.icon-gradient{
+  transition: 0.3s ease;
+}
+
+.contact-card {
+  transition: 0.3s;
+  border:1px solid #e6e8ec
+}
+
+.contact-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 0.75rem 1.5rem rgba(0, 0, 0, 0.12);
+  border:2px solid #DAB2FF;
+}
+.contact-card:hover .icon-gradient{
+    transform: scale(1.10);
+}
+.c-1 .icon-gradient{
+background: linear-gradient(135deg, #873EFF,#8B4BFF);
+}
+.c-2 .icon-gradient{
+background: linear-gradient(135deg, #A93FFF,#9D23FD);
+}
+.c-3 .icon-gradient{
+background: linear-gradient(135deg, #E453DE,#F89146);
+}
+.c-4 .icon-gradient{
+background: linear-gradient(135deg, #5E59FF,#594FFD);
+}
+.info-box{
+  background-color: #F5F6F8;
+}
+.connect-box {
+  background: linear-gradient(135deg, #8C1CFC, #8321FD);
+}
+input,select ,textarea{
+  background-color: #F5F6F8 !important;
+  border-radius: .75rem !important;
+
+}
+
+.send-btn {
+  background: linear-gradient(to right, #8321FD, #9811FB);
+}
+
+.icon-circle {
+  background: #ffffff;
+  color: #7b2cff;
+  font-size: 18px;
+}
+.social-btn {
+  width: 42px;
+  height: 42px;
+  border-radius: 15%;
+  background: rgba(255, 255, 255, 0.18);
+  color: #fff;
+  border: none;
+}
+.check-b{
+  background-color: #F5F3FF;
+}
+.form-check-input {
+  border-radius: 0 !important;
+background-color: #fff;
+border: 1px solid #000;
+accent-color: #000 !important;
+}
+footer{
+  padding: 5rem 3rem;
+}
+.footer-bg {
+  background: linear-gradient(135deg, #4E179A, #59168B);
+}
+footer .iconn{
+transition: 0.3s ease;
+display: inline;
+}
+footer .iconn:hover{
+  transform: scale(1.05);
+  background-color: #7F22FE !important;
+}
