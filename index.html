@@ -11,7 +11,11 @@
   <title>EliteHomes - Your Dream Home Awaits</title>
 </head>
 
-<body>
+<body  data-bs-spy="scroll"
+  data-bs-target=".my-nav"
+  data-bs-offset="80"
+  data-bs-smooth-scroll="true"
+  tabindex="0">
   <!--Start Navbar Secion -->
   <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top p-3 my-nav">
     <div class="container-fluid">
@@ -23,7 +27,7 @@
       <div class="collapse navbar-collapse" id="navbarSupportedContent">
         <ul class="navbar-nav ms-auto mb-2 mb-lg-0 d-flex gap-3 fs-6">
           <li class="nav-item">
-            <a class="nav-link active main-color fw-bold" aria-current="page" href="#">Home</a>
+            <a class="nav-link active main-color fw-bold" aria-current="page" href="#Home">Home</a>
           </li>
           <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle main-Text-color" href="#" role="button" data-bs-toggle="dropdown"
@@ -40,16 +44,16 @@
             </ul>
           </li>
           <li class="nav-item ">
-            <a class="nav-link main-Text-color" href="#">Services</a>
+            <a class="nav-link main-Text-color" href="#our-services">Services</a>
           </li>
           <li class="nav-item ">
-            <a class="nav-link main-Text-color" href="#">Testimonials</a>
+            <a class="nav-link main-Text-color" href="#testemonials">Testimonials</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link main-Text-color" href="#">FAQ</a>
+            <a class="nav-link main-Text-color" href="#faq">FAQ</a>
           </li>
           <li class="nav-item">
-            <a class="nav-link main-Text-color" href="#">Contact</a>
+            <a class="nav-link main-Text-color" href="#contact">Contact</a>
           </li>
         </ul>
 
@@ -58,7 +62,7 @@
   </nav>
   <!-- End Navbar Section -->
   <!-- Start header Section -->
-  <header class="mt-5 pt-5">
+  <header class="mt-5 pt-5" id="Home">
     <div class="header-title pt-4 text-light text-center  ">
       <h1 class=" fw-bold">Find Your Dream Home</h1>
       <p class=" mt-4">Discover exceptional properties in prime locations. From modern condos to <br> luxury estates, we
@@ -351,7 +355,7 @@
   </section>
   <!-- End Premium Collection Section -->
   <!-- Start Our Services Section -->
-  <section class="our-services py-5">
+  <section class="our-services py-5" id="our-services">
     <div class="our-services-title mt-4 text-center">
       <div class="title-1 rounded-5 px-4 py-2 d-inline">
         <span class="main-color text-uppercase">What We Offer</span>
@@ -788,7 +792,7 @@
   <!-- End Our Services Section -->
 
   <!-- Start Testemonial Section -->
-  <section class="testemonials py-5">
+  <section class="testemonials py-5 " id="testemonials">
     <div class="testemonials-title mt-4 text-center">
       <div class="title-1 rounded-5 px-4 py-2 d-inline">
         <span class="main-color text-uppercase">Client Stories</span>
@@ -964,7 +968,7 @@
   <!-- End Testemonial Section -->
 
   <!-- Start FAQ Section -->
-   <section class="faq py-5">
+   <section class="faq py-5" id="faq">
 <div class="faq-title mt-4 text-center">
       <div class="title-1 rounded-5 px-4 py-2 d-inline">
         <span class="main-color text-uppercase">Help Center</span>
@@ -1063,7 +1067,7 @@
    </section>
   <!-- End FAQ Section -->
    <!-- Start Contact Section -->
-    <section class="contact py-5">
+    <section class="contact py-5" id="contact">
 <div class="contact-title mt-4 text-center">
       <div class="title-1 rounded-5 px-4 py-2 d-inline">
         <span class="main-color text-uppercase">Contact Us
